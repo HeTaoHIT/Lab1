@@ -89,4 +89,4 @@ public class BinaryHeap<AnyType extends Comparable<? super AnyType>> {
 		Elements[hole]=tmp;
 	}
 
-}//comments B1
+}//comments B1 C4

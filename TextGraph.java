@@ -20,7 +20,7 @@ import java.util.Set;
  * @author 何涛
  * @version 1st   on 2017年9月10日
  */
-public class TextGraph {  //B1
+public class TextGraph {  //B1 C4
 	private Graph gph;
 	
 	public TextGraph(){
