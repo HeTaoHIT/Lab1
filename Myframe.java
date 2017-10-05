@@ -54,7 +54,7 @@ import java.awt.event.ActionEvent;
 import java.awt.SystemColor;
 import javax.swing.JComboBox;
 
-public class Myframe {
+public class Myframe {   //B2
 
 	private JFrame frame;
 	private JTextField textField;
