@@ -58,3 +58,4 @@ public class PanelwithImg extends JPanel {
 			repaint();
 	}
 }
+b2
