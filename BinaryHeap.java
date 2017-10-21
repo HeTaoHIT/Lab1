@@ -8,8 +8,8 @@ import java.util.Scanner;
  */
 
 /**
- * @author ºÎÌÎ
- * @version 1st on 2017Äê9ÔÂ9ÈÕ
+ * @author ï¿½ï¿½ï¿½ï¿½
+ * @version 1st on 2017ï¿½ï¿½9ï¿½ï¿½9ï¿½ï¿½
  */
 public class BinaryHeap<AnyType extends Comparable<? super AnyType>> {
 	private static final int DEFAULT_CAPACITY = 10; // Default initial capacity
@@ -83,10 +83,12 @@ public class BinaryHeap<AnyType extends Comparable<? super AnyType>> {
 
 		for (; hole * 2 <= Size; hole = child) {
 			child = hole * 2;
-			if (child != Size && Elements[child].compareTo(Elements[child + 1]) > 0)
+			if (child != Size && Elements[child].compareTo(Elements[child + 1]) > 0){
 				child++;
-			if (tmp.compareTo(Elements[child]) > 0)
+			}
+			if (tmp.compareTo(Elements[child]) > 0){
 				Elements[hole] = Elements[child];
+			}
 			else
 				break;
 		}
