@@ -540,7 +540,7 @@ public class Myframe {
 			// D:\\eclipse\\workspace\\lab1\\GData.gv -T jpg -o
 			// D:\\graphviz-2.38\\workspace\\5.jpg");
 			Process process = Runtime.getRuntime().exec(
-					"dot C:\\Users\\xutao\\Desktop\\lab1_wcy\\GData.gv -T jpg -o D:\\graphviz-2.38\\workspace\\5.jpg");
+					dot D:\\eclipse\\workspace\\lab1\\GData.gv -T jpg -o D:\\graphviz-2.38\\workspace\\5.jpg);
 			try {
 				process.waitFor();
 			} catch (InterruptedException e) {
