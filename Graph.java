@@ -171,30 +171,6 @@ public class Graph {
 		return bfsList;
 	}
 
-	/*public Pair<LinkedList<String>, Integer> ShortestPath(String src, String des) {
-		if (!m_set.contains(src)) {
-			System.out.println("No \"" + src + "\" exciting in the graph!");
-			return null;
-		}
-		if (!m_set.contains(des)) {
-			System.out.println("No \"" + des + "\" exciting in the graph!");
-			return null;
-		}
-		LinkedList<String> lst = new LinkedList<>();
-		Map<String, vertex> strToVtx = Dijkstra(src);
-		vertex cur = strToVtx.get(des);
-		if (cur.prev == null) {
-			//System.out.println("No path form \"" + src + "\" to " + des + "\"");
-			return null;
-		}
-		int Dist = cur.dist;
-		while (cur.prev != null) {
-			lst.addFirst(cur.value);
-			cur = cur.prev;
-		}
-		return new Pair<LinkedList<String>, Integer>(lst, Dist);
-	}*/
-
 	public Map<String, vertex> Dijkstra(String str) {
 		final int INFINITY = 1000000;
 		Map<String, vertex> strToVtx = new HashMap<String, vertex>();
@@ -331,4 +307,3 @@ public class Graph {
 		}
 	}
 }
-

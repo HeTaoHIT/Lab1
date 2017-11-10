@@ -106,7 +106,9 @@ public class TextGraph {
 		for (String s : gph.getSet()) {
 			if (s.equalsIgnoreCase(src))
 				continue;
+			
 			stri = "";
+			
 			lst.clear();
 			if (!s.equals(src) && strToVtx.get(s).prev != null) {
 				Graph.vertex v = strToVtx.get(s);
